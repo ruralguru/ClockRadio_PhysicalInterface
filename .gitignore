@@ -5,9 +5,24 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.png
+*.xml
+*.csv
+*.graphml
+*.odt
+*.jpg
+calculataions.ods
 
 # Netlist files (exported from Eeschema)
 *.net
 
 # Autorouter files (exported from Pcbnew)
 .dsn
+
+# .zip files (Used for archive and fab)
+
+*_fab/
+archive/
+
+Documents/Calculations\.ods
+
